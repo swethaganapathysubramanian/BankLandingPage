@@ -431,7 +431,7 @@ footer .row {
         width: 100%;
     }
     .intro {
-        height: 130vh;
+        height: 110vh;
         padding: 0 0;
     }
 
@@ -460,9 +460,9 @@ footer .row {
         position: absolute;
         left:0;
         object-fit: cover;
-        width: 100%;
+        width: 80%;
         height:500px;
-        object-position: 0% 240%;
+        object-position: 0% 190%;
         z-index: 0;
     }
 
