@@ -16,7 +16,7 @@ body{
 }
 
 .row{
-    max-width: 1440px;
+    max-width: 1240px;
     margin: 0 auto;
     text-align: center;
 }
@@ -165,12 +165,12 @@ nav a {
 .intro-mockups {
     position: absolute;
     float: right;
-    left:45%;
-	height: 115%;
-	width: 50%;
-    bottom:-110px;
+    left:55%;
+	height: 120%;
+    width:56%;
+    bottom:-150px;
     object-fit: cover;
-    object-position: 0% 78%;
+    object-position: 0% 60%;
    
 }
 
@@ -208,7 +208,7 @@ nav a {
 .why-use {
     line-height: 150%;
     background-color: rgb(240, 240, 240);
-    padding:3% 4%;
+    padding:2% 4%;
 }
 
 .why-headings {
@@ -274,7 +274,7 @@ nav a {
 }
 
 .article-section {
-    padding-top: 4%;
+    padding-top: 2%;
     background-color:  rgb(246, 246, 246);
     padding-bottom: 3%;
 }
