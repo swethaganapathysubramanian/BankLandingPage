@@ -13,7 +13,7 @@
         max-width: 1300px;
     }
     .intro {
-        height: 70vh;
+        height: 400px;
     }
 
     nav {
@@ -22,7 +22,7 @@
     }
 
     .intro-bg {
-        height: 68vh;
+        height: 400px;
     }
 
     .intro-mockups {
@@ -129,7 +129,7 @@
     }
 
     .intro {
-        height: 65vh;
+        height: 450px;
     }
 
 
@@ -153,13 +153,13 @@
      .intro-mockups {
         left:40%;
         top:3%;
-        height: 50vh;
+        height: 300px;
         width: auto;
         object-position: 0% 0%;
     }
 
     .intro {
-        height: 40vh;
+        height: 350px;
     }
 
     .invitebutton { 
@@ -182,7 +182,7 @@
     }
 
     .intro-bg {
-        height: 38vh;
+        height: 350px;
     }
 
      
