@@ -462,7 +462,7 @@ footer .row {
         object-fit: cover;
         width: 100%;
         height:500px;
-        object-position: 0% 200%;
+        object-position: 0% 240%;
         z-index: 0;
     }
 
@@ -505,7 +505,8 @@ footer .row {
 }
 
     .why-h2
-    {
+    {   
+        margin-top: 20px;
         width: 100%;
     }
 
