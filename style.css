@@ -16,7 +16,7 @@ body{
 }
 
 .row{
-    max-width: 1240px;
+    max-width: 1440px;
     margin: 0 auto;
     text-align: center;
 }
@@ -167,7 +167,7 @@ nav a {
     float: right;
     left:45%;
 	height: 115%;
-	width: 60%;
+	width: 50%;
     bottom:-110px;
     object-fit: cover;
     object-position: 0% 78%;
