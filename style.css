@@ -1,0 +1,398 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    background-color: #FFF;
+    color: #555;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.row{
+    max-width: 1240px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container{
+	margin: 0 auto;
+	width: 1200px;
+	max-width: 100%;
+    }
+    
+img{
+ 	max-width: 100%;
+ 	height: auto;
+   }
+
+header {
+    width: 100%;
+}
+ 
+button{
+    border: none;
+}
+
+section {
+    padding: 0 50px;
+}
+
+.invitebutton {
+    background-image: linear-gradient(55deg,#38AD57,#2BB7DA);
+    border-radius: 25px;
+    font-weight: 300 !important;
+    padding: 12px 35px 12px 35px;
+    font-size: 70%;
+    color: #FFF;
+}
+
+.invitebutton:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+/*--------------------------------------------------------*/
+/*--------------------- Nav Section ---------------------*/
+/*-------------------------------------------------------*/
+
+nav {
+    z-index: 9999;
+    /* position: relative; */
+}
+
+.main-nav{
+    margin-top:1%;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.logo {
+    margin-left: 50px;
+    margin-top: 1%;
+    width: 200px;
+    float: left;
+}
+
+.nav-list {
+    margin: 30px;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 8px 0;
+    color: hsl(233, 8%, 62%);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #38AD57;
+    cursor: pointer;
+}
+
+.button-nav{
+    margin-top: 1%;
+    float:right;
+    margin-right: 50px;
+}
+
+.drop-down-nav {
+    display: none;
+}
+
+
+/*---------------------Mobile Nav -------------------------*/
+/* 
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #000;
+    display: none;
+}
+
+.mobile-nav-icon ion-icon {
+    font-size: 200%;
+ } */
+
+ 
+/*--------------------------------------------------------*/
+/*--------------------- intro Section ---------------------*/
+/*-------------------------------------------------------*/
+
+.intro{
+    position: relative;
+    height: 70vh;
+}
+
+
+.intro-bg {
+   position: absolute;
+   max-height: 70vh;
+   float: right;
+   left: 45%;
+   width: 80%;
+   object-fit: cover;
+}
+
+.intro-mobile {
+    display: none;
+}
+
+.intro-mobile-mockup {
+    display: none;
+}
+.intro-mockups {
+    position: absolute;
+    float: right;
+    left:45%;
+	height: 115%;
+	width: 60%;
+    bottom:-110px;
+    object-fit: cover;
+    object-position: 0% 78%;
+   
+}
+
+.intro-content {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 30%;
+    top:50%;
+    text-align: left;
+    
+}
+
+.intro-content h1 {
+    color: hsl(233, 26%, 24%);
+    font-weight: 10;
+    font-size: 270%;
+    line-height: 145%;
+    padding: 2%;
+    width: 70%;
+}
+
+.intro-content h5 {
+    color: hsl(233, 8%, 62%);
+    width: 70%;
+    line-height: 145%;
+    font-weight: 10;
+    padding: 2%;
+}
+
+
+/*--------------------------------------------------------*/
+/*--------------------- Why Section ---------------------*/
+/*-------------------------------------------------------*/
+
+.why-use {
+    line-height: 150%;
+    background-color: rgb(240, 240, 240);
+    padding:3% 4%;
+}
+
+.why-headings {
+    text-align: left;
+}
+
+.why-content p {
+    font-size: 70%;
+    width: 100%;
+    text-align: left;
+    margin: 10px 30px 10px 30px;
+    color:hsl(233, 8%, 62%);
+}
+
+.why-content{
+    width: 20%;
+    margin-left: 5%;
+}
+.why-content h3 {
+    margin: 0;
+    padding: 2%;
+    font-size: 80% ;
+}
+
+.why-headings h5  {
+    font-size: 100%;
+    color:hsl(233, 8%, 62%);
+}
+
+.why-h2,
+.why-headings h5 {
+    font-weight: 100;
+    width: 45%;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.why-use img{
+    text-align: left;
+    width: 60px;
+}
+
+/*--------------------------------------------------------*/
+/*------------------- Article Section -------------------*/
+/*-------------------------------------------------------*/
+
+.card{
+    border:1px solid white;
+    border-radius: 5px;
+    background-color: #FFF;
+    height: 500px;
+    margin-left: 5%;
+    line-height: 120%;
+}
+
+.article-heading h2{
+    text-align: left;
+    padding-bottom: 50px;
+    font-weight: 100;
+    width: 45%;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.article-section {
+    padding-top: 4%;
+    background-color:  rgb(246, 246, 246);
+    padding-bottom: 3%;
+}
+
+.card img {
+    height: 50%;
+    border-radius: 5px;
+}
+
+.card h5 {
+    color: hsl(233, 8%, 62%);
+    font-size: 70%;
+    text-align: left;
+    padding: 3%;
+}
+
+.card h3 {
+    font-size: 90% ;
+    text-align: left;
+    padding: 3%;
+}
+
+.card h3:hover{
+    cursor: pointer;
+    color: hsl(136, 65%, 51%);
+}
+
+.card p {
+    font-size: 80%;
+    width: 90%;
+    text-align: left;
+    margin: 10px 10px 10px 10px;
+    color:hsl(233, 8%, 62%);
+}
+
+.content {
+    margin: 2%;
+}
+
+
+/*--------------------------------------------------------*/
+/*------------------- Footer Section -------------------*/
+/*-------------------------------------------------------*/
+
+footer {
+    padding-top: 2%;
+    background-color: hsl(233, 26%, 24%);
+}
+
+footer .row {
+    text-align: left;
+}
+
+.footer-logo {
+    width: 200px;
+    padding:10%;
+    padding-left: 0;
+}
+
+.footer-icons i {
+    color:#FFF;
+}
+
+.footer-icons i:hover{
+    color:hsl(136, 65%, 51%);
+    cursor: pointer;
+}
+
+.footer-icons i {
+    padding: 2%;
+    margin-bottom: 10%;
+}
+
+.footer-links {
+    padding:3% 8%;
+    width: 500px;
+    
+}
+
+.footer-links a {
+    list-style: none;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footer-links a:hover {
+    list-style: none;
+    text-decoration: none;
+    color:hsl(136, 65%, 51%);
+    cursor: pointer;
+}
+
+.footer-links div {
+    padding-bottom: 7%;
+    font-size: 90%;
+    font-weight: 100;
+}
+
+.footer-links col {
+    padding-right: 5%;
+}
+
+.footer-button {
+    float:right;
+    padding-top: 4%;
+    font-size: 120%;
+}
+
+.attribution {
+    font-size:12px;
+    color:hsl(233, 8%, 62%);
+}
+
+.attribution a {
+    text-decoration: none;
+    color:white;
+}
+
+.button-footer {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,623 @@
+@media only screen and (max-width: 1300px) {
+
+}
+
+/* Big tablet to 1200px  smaller than 1240px row */
+@media only screen and (max-width: 1200px) {
+    
+    body {
+        font-size: 10px;
+    }
+
+    .row {
+        max-width: 1300px;
+    }
+    .intro {
+        height: 70vh;
+    }
+
+    nav {
+        z-index: 999;
+        position: relative;
+    }
+
+    .intro-bg {
+        height: 68vh;
+    }
+
+    .intro-mockups {
+        left:55%;
+        height: 480px;
+        width: 400px;
+        bottom:-10px;
+        object-position: 0% 10%;
+
+    }
+
+    .why-content h3 {
+    padding: 1%;
+    font-size: 90% ;
+}
+
+    .why-content p {
+        font-size: 90%;
+        margin: 10px 20px 10px 20px;
+    }
+
+    .why-use img{
+     width: 40px;
+}
+
+    .card{
+    height: 300px;
+    margin-left: 5%;
+    line-height: 120%;
+    }
+
+    .card h5 {
+        font-size: 90%;
+        padding: 2%;
+    }
+
+    .card h3 {
+        font-size: 90% ;
+        text-align: left;
+        padding: 3%;
+    }
+
+    .card h3:hover{
+        cursor: pointer;
+    }
+
+
+    .card p {
+        font-size: 100%;
+        width: 90%;
+        text-align: left;
+        margin: 10px 10px 10px 10px;
+        color:hsl(233, 8%, 62%);
+    }
+
+    footer {
+    padding-top: 0.5%;
+    }
+
+    .footer-logo {
+    width: 150px;
+    padding:8%;
+    }
+
+    .footer-icons i {
+    padding: 2%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 10px;
+}
+    
+    .footer-links {
+        padding:2% 5%;
+        width: 300px;
+        
+    }
+
+    .footer-button {
+        float:right;
+        padding-top: 2%;
+        font-size: 100%;
+}
+
+    .attribution {
+        font-size:10px;
+    }
+
+    .button-footer {
+        margin-bottom: 10px;
+    }
+}
+
+/* Small tablet to big tablets : 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+ 
+
+    .intro-mockups {
+        left:55%;
+        height: 380px;
+        width: 300px;
+        bottom:40px;
+        object-position: 0% 10%;
+
+    }
+
+    .intro {
+        height: 65vh;
+    }
+
+
+}
+
+
+/* Small Phones to small tablets : 481px to 767px */
+@media only screen and (max-width: 767px) {
+   
+     .col { width: 100% ; margin: 0 0 4% 0;}
+
+     html ,
+     body {
+         font-size: 10px;
+     }
+     .row {
+        max-width: 80%;
+        padding: 0 4%; 
+     }
+
+     .intro-mockups {
+        left:40%;
+        top:3%;
+        height: 50vh;
+        width: auto;
+        object-position: 0% 0%;
+    }
+
+    .intro {
+        height: 40vh;
+    }
+
+    .invitebutton { 
+        font-size: 120%;
+        padding: 12px 35px 12px 35px;
+    }
+
+    .intro-content h1 { 
+    font-size: 170%;
+    width: 40%;
+    }
+
+    .intro-content h5 { 
+    font-size: 140%;
+    width: 50%;
+    }
+
+    .intro-section {
+        margin-top: 10px;
+    }
+
+    .intro-bg {
+        height: 38vh;
+    }
+
+     
+    section {
+        padding: 0 30px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .drop-down-nav {
+        display: inline-block;
+
+    }
+
+    .dr-list-nav{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    #hamburger {
+        float:right;
+    }
+
+    
+    .dr-list-nav a {display: none;}
+
+    .dr-list-nav .logo {
+       position: absolute;
+        left: 10px;
+        top: 0px;  
+    }
+
+    .dr-list-nav.responsive .logo {
+       position: absolute;
+        left: 10px;
+        top: 0px;  
+    }
+
+    .dr-list-nav.responsive .hamburger {
+    position: absolute;
+    right: 0;
+    top: 10px;
+  }
+
+  .dr-list-nav .hamburger {
+    position: absolute;
+    right: 0;
+    top: 10px;
+  }
+
+  .dr-list-nav.responsive a:link,
+   .dr-list-nav.responsive a:visited{
+    /* float: none; */
+    display: flex;
+    right: 0;
+    text-align: center;
+    margin: 15px;
+    justify-content: space-around;
+    left: 50%;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    
+    transition: border-bottom 0.2s;
+  }
+
+  .dr-list-nav.responsive a:hover,
+  .dr-list-nav.responsive a:active {
+    color: hsl(136, 65%, 51%);
+  }
+
+  .drop-down-nav{
+      width: 100%;
+  }
+ 
+    .logo {
+    margin-left: 10px;
+    margin-top: 2%;
+    width: 100px;
+    float: left;
+    }
+
+    .why-h2 {
+        font-size: 180%;
+        width: 70%;
+    }
+
+    .why-content h3 {
+    font-size: 150% ;
+}
+
+    .why-content p {
+        font-size: 150%;
+        line-height: 145%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .why-content {
+        text-align: center;
+        margin-left: 0%;
+    }
+
+    .why-headings h5  {
+        font-size: 140%;
+        line-height: 150%;
+        color:hsl(233, 8%, 62%);
+}
+
+    .why-use {
+        padding:3% 1%;
+    }
+
+    .card {
+        height: 450px;
+        width: 350px;
+        line-height: 145%;
+    }
+
+    .article-heading h2{
+        font-size: 180%;
+     
+}
+
+    .article-section {
+       display: block;
+        text-align: left;
+    }
+
+    .card img {
+        width: 99%;
+        height: 50%;
+    }
+
+    .card h5 {
+    font-size: 140%;
+    line-height: 145%;
+}
+
+.card h3 {
+    font-size: 150% ;
+    line-height: 145%;
+}
+
+.card p {
+    font-size: 160%;
+    width: 90%;
+    line-height: 145%;
+}
+
+
+footer {
+    padding-top: 1%;
+}
+
+footer .row {
+    text-align: center;
+}
+
+.footer-logo {
+    width: 250px;
+    padding:10%;
+
+}
+
+.footer-icons i {
+    color:#FFF;
+}
+
+
+.footer-icons i {
+    padding: 2%;
+    margin-bottom: 10%;
+}
+
+.footer-links {
+    padding:1% 1%;
+    width: 400px;
+    
+}
+
+.footer-links a {
+    list-style: none;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footer-links a:hover {
+    list-style: none;
+    text-decoration: none;
+    color:hsl(136, 65%, 51%);
+    cursor: pointer;
+}
+
+.footer-links div {
+    padding-bottom: 3%;
+    font-size: 120%;
+    font-weight: 100;
+}
+
+.footer-links col {
+    padding-right: 5%;
+}
+
+.footer-button {
+    float:right;
+    padding-top: 1%;
+    font-size: 140%;
+}
+
+.set {
+    padding-bottom: 0;
+}
+.attribution {
+    font-size:12px;
+    color:hsl(233, 8%, 62%);
+}
+
+.attribution a {
+    text-decoration: none;
+    color:white;
+}
+
+.button-footer {
+    margin-bottom: 20px;
+}
+
+}
+/* Small Phones : 0 to 480px */
+@media only screen and (max-width: 510px) {
+
+    body {
+        font-size: 12px;
+    }
+    section {
+        padding: 0 0;
+    }
+    .row {
+        max-width: 100%;
+        padding: 0 0%; 
+     }
+    } 
+    .col {
+        width: 100%;
+    }
+    .intro {
+        height: 130vh;
+        padding: 0 0;
+    }
+
+    header {
+        z-index: 9999999;
+        position: relative;
+    }
+
+    .intro-bg,
+    .intro-mockups {
+        display: none;
+    }
+
+    .intro-mobile {
+        display: inline;
+        /* position: absolute; */
+        max-height: 30%;
+        left:0%;
+        width: 100%;
+        object-fit: cover;
+        z-index: -99;
+}
+
+    .intro-mobile-mockup {
+        display: inline;
+        position: absolute;
+        left:0;
+        object-fit: cover;
+        width: 100%;
+        height:500px;
+        object-position: 0% 200%;
+        z-index: 0;
+    }
+
+        
+    .intro-content {
+        position: relative;
+        transform: none;
+        left: 0%;
+        top:30%;
+        text-align: center;
+    }
+
+    .intro-content h1{
+    
+        font-size: 300%;
+        width: 100%;
+        text-align: center  ;
+    }
+
+    .intro-content h5 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .why-headings {
+        text-align: center;
+        margin: 0;
+        width: 100%;
+        font-size: 140%;
+        color: black;
+        padding-bottom: 20px;
+    }
+
+    .why-headings h5  {
+        width: 100%;
+        font-size:100%;
+        text-align: center;
+        color:hsl(233, 8%, 62%);
+
+}
+
+    .why-h2
+    {
+        width: 100%;
+    }
+
+    .why-use {
+        text-align: center;
+    }
+
+    .article-heading h2{
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: 100;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 200%;
+    color: black;
+}
+
+    .container {
+        text-align: center;
+        width: 100%;
+    }
+
+    
+    .card {
+        height: 400px;
+        width: 300px;
+        line-height: 145%;
+        margin:1% 20%;
+    }
+
+    .article-heading h2{
+        font-size: 180%;
+     
+}
+
+    .article-section {
+       display: block;
+        text-align: center;
+    }
+
+    .card img {
+        width: 99%;
+        height: 50%;
+    }
+
+    .card h5 {
+    font-size: 100%;
+    line-height: 145%;
+}
+
+.card h3 {
+    font-size: 120% ;
+    line-height: 145%;
+}
+
+.card p {
+    font-size: 120%;
+    width: 90%;
+    line-height: 145%;
+}
+
+
+
+footer {
+    padding-top: 1%;
+}
+
+footer .row {
+    text-align: center;
+}
+
+.footer-logo {
+    width: 250px;
+    padding:5%;
+
+}
+
+.footer-icons i {
+    color:#FFF;
+}
+
+
+.footer-icons i {
+    padding:1%;
+    margin-bottom: 4s%;
+}
+
+.footer-links {
+    padding:.51% .51%;
+    width: 100%;
+    
+}
+
+.footer-links div {
+    padding-bottom: 2%;
+    font-size: 110%;
+    font-weight: 100;
+}
+
+.footer-links col {
+    padding-right: 0%;
+}
+
+.footer-button {
+    float:right;
+    padding-top: 1%;
+    font-size: 100%;
+}
+
+
+
+.button-footer {
+    margin-bottom: 20px;
+}
