@@ -462,7 +462,7 @@ footer .row {
         object-fit: cover;
         width: 100%;
         height: 480px;
-        object-position: 0% 190%;
+        object-position: 0% 250%;
         z-index: 0;
     }
 
@@ -479,7 +479,8 @@ footer .row {
     
         font-size: 300%;
         width: 100%;
-        text-align: center  ;
+        text-align: center;
+        font-weight: 200;
     }
 
     .intro-content h5 {
