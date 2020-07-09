@@ -10,6 +10,9 @@
   <link rel="stylesheet" type="text/css" href="gridsystem.css">
   <link rel ="stylesheet" type = "text/css" href = "style.css">
   <link rel="stylesheet" type="text/css" href="queries.css">
+  <link rel="stylesheet" href="jquery-ui.min.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css" />
+
   <link href="https://fonts.google.com/specimen/Public+Sans" rel="stylesheet">
 
   <title>Easybank landing page</title>
@@ -31,9 +34,20 @@
         <li></li>
       </ul>
       </div>
+<div id="contactForm">
+  <h1>Request Invite!</h1>
+  <small>We'll get back to you as quickly as possible</small>
+  <form action="#">
+    <input placeholder="Name" type="text" id="name" required />
+    <input placeholder="Email" type="email" id="email" required />
+    <input class="formBtn" type="submit" onclick="onRegister()" />
+  </form>
+</div>
+
       <div class="col span-1-of-4">
-      <button class="invitebutton button-nav">Request Invite</button>
+      <button id= "contact" class="invitebutton button-nav" >Request Invite</button>
         </div>
+        
     </div>
     <div class="drop-down-nav">
       <div class="dr-list-nav" id="top-nav">
@@ -63,7 +77,7 @@
       Take your financial life online. Your Easybank account will be a one-stop-shop
       for spending, saving, budgeting, investing, and much more.
     </h5>
-    <button class="invitebutton button-header">Request Invite</button>
+    <button class="invitebutton button-header" id="contact2">Request Invite</button>
     </div>
     <div class = "col span-1-of-2 bg-img">
     <img src ="images/bg-intro-desktop.svg" class="intro-bg"  alt ="desktop">
@@ -181,7 +195,7 @@
     </div>
     </div>
     <div class="col span 2-of-5 footer-button">
-      <button class="invitebutton button-footer">Request Invite</button>
+      <button class="invitebutton button-footer" id="contact3">Request Invite</button>
       <br>
         <div class="attribution">
           Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
@@ -191,7 +205,10 @@
   </div>
 </footer>
       <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+      <script src="jquery-3.4.1.min.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+      <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
       <script src="script.js"></script>
 </body>
 
